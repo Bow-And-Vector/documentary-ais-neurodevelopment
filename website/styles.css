@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f5f5f5;
+  color: #1a1a1a;
+  line-height: 1.6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.hero {
+  background: linear-gradient(135deg, #111827, #1f2937 50%, #374151);
+  color: white;
+  padding: 1rem 0 4rem;
+}
+
+.topbar {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+.hero-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 4rem 1.25rem 0;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+
+h1 {
+  max-width: 760px;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  line-height: 1.1;
+  margin: 0.4rem 0 1rem;
+}
+
+.lede {
+  max-width: 720px;
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+.cta-row {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.8rem 1.3rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.button.primary {
+  background: #f9fafb;
+  color: #111827;
+}
+
+.button.secondary {
+  border: 1px solid rgba(255,255,255,0.4);
+  color: white;
+}
+
+.section {
+  padding: 4rem 1.25rem;
+}
+
+.section.alt {
+  background: #e5e7eb;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.container.narrow {
+  max-width: 780px;
+}
+
+.grid.three-up {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background: white;
+  border-radius: 14px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+.resource-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.7rem;
+}
+
+.resource-list a {
+  color: #111827;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer {
+  background: #111827;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 1.25rem;
+}
